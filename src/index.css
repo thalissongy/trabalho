@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, rgba(100, 140, 243, 0.5), rgba(223, 66, 189, 0.5)), url('wallpapers-do-rick-and-morty-4k-para-pc-e-celular-6-scaled.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    max-width: 500px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(247, 246, 246, 0.1);
+  }
+  
+  h1 {
+    margin-bottom: 20px; 
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  
+  input[type="number"] {
+    margin-bottom: 20px;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-bottom: 20px;
+    padding: 8px 16px;
+    font-size: 16px;
+    background-color: #770c77;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #eeeeee;
+  }
+  
+  #content {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+  }
+  
+  #content p {
+    margin: 0;
+  }
+  
+  #result-style {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza horizontalmente */
+    max-height: 400px;
+    overflow: auto;
+    width: 100%;
+  }
+  
+  #img {
+    width: 200px;
+    height: auto;
+    margin-bottom: 20px; /* Adiciona espaço abaixo da imagem */
+  }
